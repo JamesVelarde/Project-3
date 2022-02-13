@@ -1,0 +1,54 @@
+{
+  "name": "project-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "server": "webpack-dev-server --mode=development",
+    "start": "node index",
+    "seed": "node db/seeds"
+  },
+  "repository": "git+https://github.com/JamesVelarde/Project-3.git",
+  "author": "James <jimmyvelarde3302@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesVelarde/Project-3/issues"
+  },
+  "homepage": "https://github.com/JamesVelarde/Project-3#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "bcrypt": "^5.0.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.1",
+    "bulma": "^0.9.3",
+    "chai": "^4.3.6",
+    "css-loader": "^6.6.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.2.0",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.1",
+    "mongoose-hidden": "^1.9.1",
+    "mongoose-unique-validator": "^3.0.0",
+    "node-sass": "^7.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-map-gl": "^7.0.6",
+    "react-router-dom": "^6.2.1",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "supertest": "^6.2.2",
+    "webpack-dev-server": "^4.7.4",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2",
+    "webpack-cli": "^4.9.2"
+  }
+}
