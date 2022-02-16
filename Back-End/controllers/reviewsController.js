@@ -1,4 +1,4 @@
-const Reviews = require('../models/reviews')
+const Reviews = require('Back-End\models\review.js')
 
 function index(req, res) {
   Reviews

@@ -1,6 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const router = require('./models/router')
+const router = require('./router')
 const mongoose = require('mongoose')
 mongoose.connect(
   'mongodb+srv://jimmy3302:<velarde759>@cluster0.vdmri.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',

@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken')
 const secret = 'Jimmy is cool '
-const User = require('../../models/user')
+const User = require('../models/user')
 
 function secureRoute(req, res, next) {
 
